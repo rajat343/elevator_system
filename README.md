@@ -1,8 +1,7 @@
 # elevator_system
 
 Requirements: 
-python 3
-numpy
+python 3 and numpy
 
 How to setup
 run command on terminal - "pip3 install numpy"

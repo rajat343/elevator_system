@@ -1,0 +1,313 @@
+Matching Floor Request With Elevator!!
+Active Floors =>  [-2, -1, 5, 7, 9, 10, 12]
+************************************************
+Lift number  3
+On floor  0
+Service list  [-2, -3, 12, 8, 6, 4, 0, 5]
+Direction  -1
+************************************************
+Lift number  4
+On floor  4
+Service list  [-1, -3, 0, 5]
+Direction  -1
+************************************************
+Lift number  2
+On floor  5
+Service list  [5, 4, 0, 5]
+Direction  1
+************************************************
+Lift number  0
+On floor  9
+Service list  [7, 8, 6, 4, 0, 5]
+Direction  -1
+************************************************
+Lift number  1
+On floor  10
+Service list  [9, 2, 4, 8, 10, 12]
+Direction  -1
+************************************************
+Lift number  0
+On floor  9
+Service list  [10, -3, 12, 8, 6, 4, 0, 5]
+Direction  1
+************************************************
+Lift number  0
+On floor  9
+Service list  [12, -3, 0, 5]
+Direction  1
+---------------------------------------------------------
+                        Lift - 0
+---------------------------------------------------------
+Need To Process =>  [12, -3, 0, 5]
+lift 0 is currently @ floor 9
+lift 0 running status False 
+lift 0 is currently @ floor 9
+lift 0 running status True 
+lift 0 is currently @ floor 10
+lift 0 running status True 
+lift 0 is currently @ floor 11
+lift 0 running status True 
+lift 0 is currently @ floor 12
+lift 0 running status False 
+lift 0 door opening
+lift 0 door closing
+lift 0 is currently @ floor 12
+lift 0 running status True 
+lift 0 is currently @ floor 11
+lift 0 running status True 
+lift 0 is currently @ floor 10
+lift 0 running status True 
+lift 0 is currently @ floor 9
+lift 0 running status True 
+lift 0 is currently @ floor 8
+lift 0 running status True 
+lift 0 is currently @ floor 7
+lift 0 running status True 
+lift 0 is currently @ floor 6
+lift 0 running status True 
+lift 0 is currently @ floor 5
+lift 0 running status False 
+lift 0 door opening
+lift 0 door closing
+lift 0 is currently @ floor 5
+lift 0 running status False 
+lift 0 is currently @ floor 4
+lift 0 running status True 
+lift 0 is currently @ floor 3
+lift 0 running status True 
+lift 0 is currently @ floor 2
+lift 0 running status True 
+lift 0 is currently @ floor 1
+lift 0 running status True 
+lift 0 is currently @ floor 0
+lift 0 running status False 
+lift 0 door opening
+lift 0 door closing
+lift 0 is currently @ floor 0
+lift 0 running status False 
+lift 0 is currently @ floor -1
+lift 0 running status True 
+lift 0 is currently @ floor -2
+lift 0 running status True 
+lift 0 is currently @ floor -3
+lift 0 running status False 
+lift 0 door opening
+lift 0 door closing
+---------------------------------------------------------
+                        Lift - 1
+---------------------------------------------------------
+Need To Process =>  [9, 2, 4, 8, 10, 12]
+lift 1 is currently @ floor 10
+lift 1 running status False 
+lift 1 is currently @ floor 10
+lift 1 running status True 
+lift 1 is currently @ floor 9
+lift 1 running status False 
+lift 1 door opening
+lift 1 door closing
+lift 1 is currently @ floor 9
+lift 1 running status True 
+lift 1 is currently @ floor 10
+lift 1 running status False 
+lift 1 door opening
+lift 1 door closing
+lift 1 is currently @ floor 10
+lift 1 running status False 
+lift 1 is currently @ floor 11
+lift 1 running status True 
+lift 1 is currently @ floor 12
+lift 1 running status False 
+lift 1 door opening
+lift 1 door closing
+lift 1 is currently @ floor 12
+lift 1 running status True 
+lift 1 is currently @ floor 11
+lift 1 running status True 
+lift 1 is currently @ floor 10
+lift 1 running status True 
+lift 1 is currently @ floor 9
+lift 1 running status True 
+lift 1 is currently @ floor 8
+lift 1 running status False 
+lift 1 door opening
+lift 1 door closing
+lift 1 is currently @ floor 8
+lift 1 running status False 
+lift 1 is currently @ floor 7
+lift 1 running status True 
+lift 1 is currently @ floor 6
+lift 1 running status True 
+lift 1 is currently @ floor 5
+lift 1 running status True 
+lift 1 is currently @ floor 4
+lift 1 running status False 
+lift 1 door opening
+lift 1 door closing
+lift 1 is currently @ floor 4
+lift 1 running status False 
+lift 1 is currently @ floor 3
+lift 1 running status True 
+lift 1 is currently @ floor 2
+lift 1 running status False 
+lift 1 door opening
+lift 1 door closing
+---------------------------------------------------------
+                        Lift - 2
+---------------------------------------------------------
+Need To Process =>  [5, 4, 0, 5]
+lift 2 is currently @ floor 5
+lift 2 running status False 
+lift 2 door opening
+lift 2 door closing
+lift 2 is currently @ floor 5
+lift 2 running status True 
+lift 2 is currently @ floor 4
+lift 2 running status False 
+lift 2 door opening
+lift 2 door closing
+lift 2 is currently @ floor 4
+lift 2 running status False 
+lift 2 is currently @ floor 3
+lift 2 running status True 
+lift 2 is currently @ floor 2
+lift 2 running status True 
+lift 2 is currently @ floor 1
+lift 2 running status True 
+lift 2 is currently @ floor 0
+lift 2 running status False 
+lift 2 door opening
+lift 2 door closing
+---------------------------------------------------------
+                        Lift - 3
+---------------------------------------------------------
+Need To Process =>  [-2, -3, 12, 8, 6, 4, 0, 5]
+lift 3 is currently @ floor 0
+lift 3 running status False 
+lift 3 is currently @ floor 0
+lift 3 running status True 
+lift 3 is currently @ floor -1
+lift 3 running status True 
+lift 3 is currently @ floor -2
+lift 3 running status False 
+lift 3 door opening
+lift 3 door closing
+lift 3 is currently @ floor -2
+lift 3 running status True 
+lift 3 is currently @ floor -3
+lift 3 running status False 
+lift 3 door opening
+lift 3 door closing
+lift 3 is currently @ floor -3
+lift 3 running status True 
+lift 3 is currently @ floor -2
+lift 3 running status True 
+lift 3 is currently @ floor -1
+lift 3 running status True 
+lift 3 is currently @ floor 0
+lift 3 running status False 
+lift 3 door opening
+lift 3 door closing
+lift 3 is currently @ floor 0
+lift 3 running status False 
+lift 3 is currently @ floor 1
+lift 3 running status True 
+lift 3 is currently @ floor 2
+lift 3 running status True 
+lift 3 is currently @ floor 3
+lift 3 running status True 
+lift 3 is currently @ floor 4
+lift 3 running status False 
+lift 3 door opening
+lift 3 door closing
+lift 3 is currently @ floor 4
+lift 3 running status False 
+lift 3 is currently @ floor 5
+lift 3 running status False 
+lift 3 door opening
+lift 3 door closing
+lift 3 is currently @ floor 5
+lift 3 running status False 
+lift 3 is currently @ floor 6
+lift 3 running status False 
+lift 3 door opening
+lift 3 door closing
+lift 3 is currently @ floor 6
+lift 3 running status False 
+lift 3 is currently @ floor 7
+lift 3 running status True 
+lift 3 is currently @ floor 8
+lift 3 running status False 
+lift 3 door opening
+lift 3 door closing
+lift 3 is currently @ floor 8
+lift 3 running status False 
+lift 3 is currently @ floor 9
+lift 3 running status True 
+lift 3 is currently @ floor 10
+lift 3 running status True 
+lift 3 is currently @ floor 11
+lift 3 running status True 
+lift 3 is currently @ floor 12
+lift 3 running status False 
+lift 3 door opening
+lift 3 door closing
+---------------------------------------------------------
+                        Lift - 4
+---------------------------------------------------------
+Need To Process =>  [-1, -3, 0, 5]
+lift 4 is currently @ floor 4
+lift 4 running status False 
+lift 4 is currently @ floor 4
+lift 4 running status True 
+lift 4 is currently @ floor 3
+lift 4 running status True 
+lift 4 is currently @ floor 2
+lift 4 running status True 
+lift 4 is currently @ floor 1
+lift 4 running status True 
+lift 4 is currently @ floor 0
+lift 4 running status True 
+lift 4 is currently @ floor -1
+lift 4 running status False 
+lift 4 door opening
+lift 4 door closing
+lift 4 is currently @ floor -1
+lift 4 running status True 
+lift 4 is currently @ floor 0
+lift 4 running status False 
+lift 4 door opening
+lift 4 door closing
+lift 4 is currently @ floor 0
+lift 4 running status False 
+lift 4 is currently @ floor 1
+lift 4 running status True 
+lift 4 is currently @ floor 2
+lift 4 running status True 
+lift 4 is currently @ floor 3
+lift 4 running status True 
+lift 4 is currently @ floor 4
+lift 4 running status True 
+lift 4 is currently @ floor 5
+lift 4 running status False 
+lift 4 door opening
+lift 4 door closing
+lift 4 is currently @ floor 5
+lift 4 running status True 
+lift 4 is currently @ floor 4
+lift 4 running status True 
+lift 4 is currently @ floor 3
+lift 4 running status True 
+lift 4 is currently @ floor 2
+lift 4 running status True 
+lift 4 is currently @ floor 1
+lift 4 running status True 
+lift 4 is currently @ floor 0
+lift 4 running status True 
+lift 4 is currently @ floor -1
+lift 4 running status True 
+lift 4 is currently @ floor -2
+lift 4 running status True 
+lift 4 is currently @ floor -3
+lift 4 running status False 
+lift 4 door opening
+lift 4 door closing

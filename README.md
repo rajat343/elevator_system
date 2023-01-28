@@ -12,3 +12,7 @@ goto /code and run command - "python3 run.py"
 
 Parameters could be changed from run.py itself.
 
+
+Output with default parameters could be viewed in output.md file.
+
+

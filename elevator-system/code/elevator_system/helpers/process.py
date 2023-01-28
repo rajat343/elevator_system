@@ -50,3 +50,5 @@ def process_request(self, active_floors):
             print("\t\t\tLift - {}".format(elevator.lift_number))
             print("---------------------------------------------------------")
             elevator.process_request()
+
+            

@@ -1,5 +1,5 @@
 Matching Floor Request With Elevator!!
-Active Floors =>  [-2, -1, 5, 7, 9, 10, 12]
+Active Floors =>  [-2, -1, 5, x7, 9, 10, 12]
 ************************************************
 Lift number  3
 On floor  0
@@ -35,6 +35,8 @@ Lift number  0
 On floor  9
 Service list  [12, -3, 0, 5]
 Direction  1
+
+
 ---------------------------------------------------------
                         Lift - 0
 ---------------------------------------------------------
@@ -93,6 +95,8 @@ lift 0 is currently @ floor -3
 lift 0 running status False 
 lift 0 door opening
 lift 0 door closing
+
+
 ---------------------------------------------------------
                         Lift - 1
 ---------------------------------------------------------
@@ -151,6 +155,8 @@ lift 1 is currently @ floor 2
 lift 1 running status False 
 lift 1 door opening
 lift 1 door closing
+
+
 ---------------------------------------------------------
                         Lift - 2
 ---------------------------------------------------------
@@ -177,6 +183,8 @@ lift 2 is currently @ floor 0
 lift 2 running status False 
 lift 2 door opening
 lift 2 door closing
+
+
 ---------------------------------------------------------
                         Lift - 3
 ---------------------------------------------------------
@@ -251,6 +259,8 @@ lift 3 is currently @ floor 12
 lift 3 running status False 
 lift 3 door opening
 lift 3 door closing
+
+
 ---------------------------------------------------------
                         Lift - 4
 ---------------------------------------------------------
